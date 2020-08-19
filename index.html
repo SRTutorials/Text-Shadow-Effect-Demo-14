@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SR Tutorials - Learn Every Day</title></head>
+    <style media="screen">
+      body {
+        background-color: #530808;
+      }
+
+      .text-effect {
+        color: #530808;
+        font-size: 130px;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 200px;
+        animation: animate 2s infinite linear;
+    }
+
+    @keyframes animate{
+        0%{
+            text-shadow: transparent 0 0 0;
+        }
+        50%{
+            text-shadow: #fff 0.02em 0 0,
+                         #fff 0 0.02em 0,
+                         #fff -0.02em 0 0,
+                         #fff 0 -0.02em 0,
+                         #530808 0.06em 0 0,
+                         #530808 0.06em 0.06em 0,
+                         #530808 0 0.06em 0,
+                         #530808 -0.06em 0.06em 0,
+                         #530808 -0.06em 0 0,
+                         #530808 -0.06em -0.06em 0,
+                         #530808 0 -0.06em 0,
+                         #530808 0.06em -0.06em 0,
+                         #fff 0.08em 0 0,
+                         #fff 0.08em 0.08em 0,
+                         #fff 0 0.08em 0,
+                         #fff -0.08em 0.08em 0,
+                         #fff -0.08em 0 0,
+                         #fff -0.08em -0.08em 0,
+                         #fff 0 -0.08em 0,
+                         #fff 0.08em -0.08em 0;
+        }
+        100%{
+            text-shadow: transparent 0 0 0;
+        }
+    }
+    </style>
+  <body>
+
+    <div class="text-effect">
+      <span>SR Tutorials</span>
+    </div>
+
+</body>
+</html>
